@@ -80,21 +80,6 @@ Implement a program that applies filters to BMPs, per the below.
 
 <p>For a pixel along the edge or corner, like pixel 15, we would still look for all pixels within 1 row and column: in this case, pixels 10, 11, 12, 14, 15, and 16.</p>
 
-<h2 id="getting-started"><a data-id="" href="#getting-started">Getting Started</a></h2>
-
-<p>Here’s how to download this problem’s “distribution code” (i.e., starter code) into your own CS50 IDE. Log into <a href="https://ide.cs50.io/">CS50 IDE</a> and then, in a terminal window, execute each of the below.</p>
-
-<ul class="fa-ul">
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd</code> to ensure that you’re in <code class="highlighter-rouge">~/</code> (i.e., your home directory).</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">mkdir pset4</code> to make (i.e., create) a directory called <code class="highlighter-rouge">pset4</code> in your home directory.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd pset4</code> to change into (i.e., open) that directory.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">wget https://cdn.cs50.net/2019/fall/psets/4/filter/less/filter.zip</code> to download a (compressed) ZIP file with this problem’s distribution.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">unzip filter.zip</code> to uncompress that file.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">rm filter.zip</code> followed by <code class="highlighter-rouge">yes</code> or <code class="highlighter-rouge">y</code> to delete that ZIP file.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">ls</code>. You should see a directory called <code class="highlighter-rouge">filter</code>, which was inside of that ZIP file.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">cd filter</code> to change into that directory.</li>
-  <li data-marker="*"><span class="fa-li"><i class="fas fa-circle"></i></span>Execute <code class="highlighter-rouge">ls</code>. You should see this problem’s distribution, including <code class="highlighter-rouge">bmp.h</code>, <code class="highlighter-rouge">filter.c</code>, <code class="highlighter-rouge">helpers.h</code>, <code class="highlighter-rouge">helpers.c</code>, and <code class="highlighter-rouge">Makefile</code>. You’ll also see a directory called <code class="highlighter-rouge">images</code>, with some sample Bitmap images.</li>
-</ul>
 
 <h2 id="understanding"><a data-id="" href="#understanding">Understanding</a></h2>
 
